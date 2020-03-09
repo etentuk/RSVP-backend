@@ -8,7 +8,7 @@ const eventSchema = new Schema({
   type: {type: String, require: true},
   location: {
     name: {type: String, require: true},
-    houseNumber: {type: Number , require: true},
+    houseNumber: {type: Number , require: false},
     street: {type: String , require: true},
     city: {type: String , require: true}
     },
